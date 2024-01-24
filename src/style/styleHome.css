@@ -1,0 +1,129 @@
+.img-pokedex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    
+    
+}
+
+.flotar {
+    animation: flotarAnimacion 3s ease-in-out infinite;
+    cursor: pointer;
+    height: 7rem;
+    
+}
+
+@keyframes flotarAnimacion {
+    0%, 100% {
+    transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* Ajusta la distancia vertical de la "flotación" */
+    }
+    
+}
+.container-trainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.title-trainer{
+    font-size: 3rem;
+    font-weight: 400;
+    
+}
+.parrafo-pokedex{
+    color: black;
+    box-shadow:  9px 5px 20px rgba(0, 0, 0, );
+    font-size: 1.2rem;
+}
+.container-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.form-style{
+    animation: flotarAnimacion 9s ease-in-out infinite;
+    cursor: pointer;
+}
+
+@keyframes flotarAnimacion {
+    0%, 100% {
+    transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* Ajusta la distancia vertical de la "flotación" */
+    }
+}
+.input-pokedex{
+    
+    padding: 10px 15px; /* Ajusta el relleno para un aspecto más grande */
+    font-size: 16px; /* Ajusta el tamaño de la fuente según tus necesidades */
+    border-radius: 5px;
+    background-color: rgba(147, 133, 133, 0.977);
+    color: #1a0404;
+    cursor: pointer;
+    border: none;
+}
+.button-style{
+    padding: 10px 15px; /* Ajusta el relleno para un aspecto más grande */
+    font-size: 15px;
+    border: none;
+    color: #ffffff;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.nave{
+    font-size: 14px;
+    
+}
+
+.initial-img{
+    height: 5rem;
+    animation: flotarAnimacion 3s ease-in-out infinite;
+    cursor: pointer;
+}
+
+@keyframes flotarAnimacion {
+    0%, 100% {
+    transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* Ajusta la distancia vertical de la "flotación" */
+    }
+}
+.title-page{
+    font-weight: 300 ;
+}
+.buscar{
+    padding: 10px 15px; /* Ajusta el relleno para un aspecto más grande */
+    font-size: 16px; /* Ajusta el tamaño de la fuente según tus necesidades */
+    border-radius: 5px;
+    background-color: rgba(211, 201, 201, 0.977);
+    color: #1a0404;
+    cursor: pointer;
+    border: none;
+}
+.encontrar{
+    padding: 10px 15px; /* Ajusta el relleno para un aspecto más grande */
+    font-size: 13px;
+    border: none;
+    color: #ffffff;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.poke-info {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1rem; 
+    align-items: center;
+    justify-content: center;
+}
+
+/* h7ui */

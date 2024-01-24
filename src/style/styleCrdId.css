@@ -1,0 +1,80 @@
+
+
+.container-pokemons-cardid {
+    position: relative;
+    margin: 0;
+    border-radius: 10px;
+    padding: 0;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.img-pokemons {
+    
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-pokemons {
+    margin: 20px 0;
+    font-size: 3rem;
+    color: black;
+
+}
+
+.container-atak {
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemosn {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.pokemosn li {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+
+.other-pokemons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #e74c3c, #3498db);
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.other-pokemons li {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(153, 180, 202, 0.2);
+    padding: 8px;
+}
+
+.other-pokemons li span:first-child {
+    flex: 1;
+}
+
+.other-pokemons li span:last-child {
+    font-weight: bold;
+    color: #0a0101;}
+
+.title-hp{
+font-size: 1.5rem;
+
+color: black;
+    }
+
+
+
